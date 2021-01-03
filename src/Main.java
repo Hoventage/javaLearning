@@ -1,22 +1,23 @@
-public class Main {
-    public static void main(String[] args) {
+import java.text.MessageFormat;
 
-//        String newString = "bla-bla!11";
-//        StringBuilder stringBuilder = new StringBuilder(newString);
-//        StringBuilder ohMy = stringBuilder.delete(newString.length() - 3, newString.length());
-//
-//        System.out.println(ohMy);
-        byte testByte = 0;
-        //printBinary(testByte, 8);
-        System.out.println("Погнали смотреть про деда!)");
+public class Main {
+    public static void main(String[] args){
+
+        BinaryPrinter testClass = new BinaryPrinter(4);
+        System.out.println(MessageFormat.format("Original testVariable is: {0}", testClass.getTestVariable()));
+        doPrint(testClass, 11);
+        //testClass.print(testClass.getTestVariable());
+        System.out.println(MessageFormat.format("Original testVariable is: {0}", testClass.getTestVariable()));
+
+        ForExtendingTests instance = new ForExtendingTests(10);
     }
 
-//    private static void printBinary(byte value, int size) {
-//        for (int i = size - 1; i >= 0; i--) {
-//            long mask = 1 << i;
-//            long result = (mask & value) >> i;
-//            System.out.print(result);
-//        }
-//        System.out.println();
-//    }
+    private static void doPrint(BinaryPrinter printer, int value){
+        printer.print(value);
+        try {
+            printer.setTestVariable(value);
+        } catch (Exception exception){
+            System.out.println(exception.getMessage());
+        }
+    }
 }
