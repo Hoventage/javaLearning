@@ -8,6 +8,7 @@ public class Main {
 //        System.out.println(ohMy);
         byte testByte = 0;
         //printBinary(testByte, 8);
+        System.out.println("Погнали смотреть про деда!)");
     }
 
 //    private static void printBinary(byte value, int size) {
