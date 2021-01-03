@@ -11,12 +11,15 @@ public class Main {
         System.out.println("Погнали смотреть про деда!)");
     }
 
-//    private static void printBinary(byte value, int size) {
-//        for (int i = size - 1; i >= 0; i--) {
-//            long mask = 1 << i;
-//            long result = (mask & value) >> i;
-//            System.out.print(result);
-//        }
-//        System.out.println();
-//    }
+    /**
+     * Some kind of a summary
+     */
+    private static void printBinary(byte value, int size) {
+        for (int i = size - 1; i >= 0; i--) {
+            long mask = 1 << i;
+            long result = (mask & value) >> i;
+            System.out.print(result);
+        }
+        System.out.println();
+    }
 }
