@@ -8,7 +8,7 @@ public class ClassToCheckOutObject {
     public String toString() {
         return "ClassToCheckOutObject{" +
                 "a=" + a +
-                ", bool=" + bool +
+                ", bool= " + bool +
                 '}';
     }
 
