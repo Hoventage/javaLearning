@@ -1,14 +1,9 @@
-import OldLectures.*;
-
-import java.util.Arrays;
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
 
-        List<String> expectedStringList = Arrays.asList("123", "321", "12312312");
+        /*List<String> expectedStringList = Arrays.asList("123", "321", "12312312");
         String oneElementFromMyList = expectedStringList.get(2);
-        System.out.println(oneElementFromMyList);
+        System.out.println(oneElementFromMyList);*/
 
         /*int[] array1 = new int[100];
         int[] array2 = {1,2,3,4,5};
@@ -31,7 +26,7 @@ public class Main {
         String myNewStringToResearch = String.join("", craftedString);
         System.out.println(myNewStringToResearch.charAt(3));*/
 
-        StringBuilder strBuilder = new StringBuilder();
+        /*StringBuilder strBuilder = new StringBuilder();
         for (int i = 0; i < 100; i++) {
             strBuilder.append(i).append("_");
         }
@@ -58,7 +53,9 @@ public class Main {
         List<String> list = Arrays.asList("str1", "str2", "str3");
         list.forEach(System.out::println);
 
-        int[] newIntArray = {1, 2, 3, 4, 5};
+        int[] newIntArray = {1, 2, 3, 4, 5};*/
 
+        AnimalHouse animalHouse = new CatsHouse();
+        System.out.println(animalHouse.getAnimal());
     }
 }
