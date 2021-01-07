@@ -1,3 +1,5 @@
+package OldLectures;
+
 public abstract class AbstractionCheck {
 
     protected abstract void protectedMethodCheck();

@@ -1,3 +1,5 @@
+package OldLectures;
+
 import java.util.Objects;
 
 public class ClassToCheckOutObject extends AbstractionCheck implements InterfaceCheck {
@@ -6,7 +8,7 @@ public class ClassToCheckOutObject extends AbstractionCheck implements Interface
 
     @Override
     public String toString() {
-        return "ClassToCheckOutObject{" +
+        return "OldLectures.ClassToCheckOutObject{" +
                 "a=" + a +
                 ", bool= " + bool +
                 '}';

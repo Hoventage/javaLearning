@@ -1,3 +1,5 @@
+package OldLectures;
+
 public class GenericExample<T> {
     private T someValue;
 

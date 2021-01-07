@@ -1,3 +1,5 @@
+package OldLectures;
+
 public interface InterfaceCheck {
 
     default String method() {

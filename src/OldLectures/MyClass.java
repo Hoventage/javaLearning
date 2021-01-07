@@ -1,3 +1,5 @@
+package OldLectures;
+
 public class MyClass  {
     private InterfaceCheck interfaceRefField;
 

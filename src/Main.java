@@ -1,4 +1,5 @@
-import javax.swing.*;
+import OldLectures.*;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -49,7 +50,7 @@ public class Main {
 
         GenericExample<Double> newGE = new GenericExample<>(2.2);
 
-        //GenericInterface stringGenericInterface = System.out::println;
+        //OldLectures.GenericInterface stringGenericInterface = System.out::println;
         GenericInterface stringGenericInterface = String -> System.out.println(String);
 
         stringGenericInterface.printMe("куку");
