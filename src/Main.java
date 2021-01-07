@@ -1,5 +1,4 @@
-import java.text.MessageFormat;
-import java.lang.Object;
+import javax.swing.*;
 import java.util.Arrays;
 import java.util.List;
 
@@ -7,7 +6,7 @@ public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
 
         List<String> expectedStringList = Arrays.asList("123", "321", "12312312");
-        String oneElementFromMyList =  expectedStringList.get(2);
+        String oneElementFromMyList = expectedStringList.get(2);
         System.out.println(oneElementFromMyList);
 
         /*int[] array1 = new int[100];
@@ -32,12 +31,33 @@ public class Main {
         System.out.println(myNewStringToResearch.charAt(3));*/
 
         StringBuilder strBuilder = new StringBuilder();
-        for (int i = 0; i < 100; i++){
+        for (int i = 0; i < 100; i++) {
             strBuilder.append(i).append("_");
         }
 
         System.out.println(strBuilder);
         System.out.println(strBuilder.toString());
+
+
+        InterfaceCheck instance = new ClassToCheckOutObject();
+        instance.method();
+        instance.notAMethod();
+
+        MyClass myClassInstance = new MyClass(instance);
+        myClassInstance.shouldCallDefaultInterfaceMethod();
+        myClassInstance.shouldCallAbstractInterfaceMethodImplementedInBaseClass();
+
+        GenericExample<Double> newGE = new GenericExample<>(2.2);
+
+        //GenericInterface stringGenericInterface = System.out::println;
+        GenericInterface stringGenericInterface = String -> System.out.println(String);
+
+        stringGenericInterface.printMe("куку");
+
+        List<String> list = Arrays.asList("str1", "str2", "str3");
+        list.forEach(System.out::println);
+
+        int[] newIntArray = {1, 2, 3, 4, 5};
 
     }
 }

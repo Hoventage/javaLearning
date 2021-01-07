@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class ClassToCheckOutObject {
+public class ClassToCheckOutObject extends AbstractionCheck implements InterfaceCheck {
     int a = 10;
     boolean bool = false;
 
@@ -23,5 +23,19 @@ public class ClassToCheckOutObject {
     @Override
     public int hashCode() {
         return Objects.hash(a, bool);
+    }
+
+    @Override
+    public String notAMethod() {
+        return "Some string";
+    }
+
+    @Override
+    protected void protectedMethodCheck() {
+        System.out.println("Protected method check");
+    }
+
+    public String newMethod() {
+        return "123";
     }
 }
