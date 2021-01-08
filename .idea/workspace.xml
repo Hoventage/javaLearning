@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="21147d29-58d6-4850-ae0d-7768184dcb05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/filimoniya/ArrayHolderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/filimoniya/ArrayHolderTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/filimoniya/ArrayHolderTestsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/filimoniya/ArrayHolderTestsRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +24,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="gotTheGitUknow" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -38,8 +39,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="JUnitLearning" />
+                    <option name="lastUsedInstant" value="1610124222" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="gotTheGitUknow" />
-                    <option name="lastUsedInstant" value="1609937148" />
+                    <option name="lastUsedInstant" value="1610124202" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -61,10 +66,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="JUnit.ArrayHolderTests.shouldCatchSomeException">
@@ -161,6 +174,7 @@
       <workItem from="1609934189193" duration="862000" />
       <workItem from="1609936379942" duration="651000" />
       <workItem from="1609937106104" duration="80000" />
+      <workItem from="1610123909443" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="12345">
       <created>1609937113737</created>
@@ -169,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609937113737</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitHub check">
+      <created>1610123955313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610123955313</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gitHub check">
+      <created>1610124129769</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610124129769</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +217,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12345" />
-    <option name="LAST_COMMIT_MESSAGE" value="12345" />
+    <MESSAGE value="gitHub check" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitHub check" />
   </component>
 </project>
