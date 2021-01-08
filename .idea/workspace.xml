@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="55555" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,16 +38,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="gotTheGitUknow" />
+                    <option name="lastUsedInstant" value="1609937148" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1609936282" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="55555" />
-                    <option name="lastUsedInstant" value="1609936239" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="JUnitLookUp" />
-                    <option name="lastUsedInstant" value="1609936177" />
                   </RecentBranch>
                 </list>
               </option>
@@ -81,17 +77,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,7 +149,16 @@
       <workItem from="1609837347554" duration="2194000" />
       <workItem from="1609934189193" duration="862000" />
       <workItem from="1609936379942" duration="651000" />
+      <workItem from="1609937106104" duration="80000" />
     </task>
+    <task id="LOCAL-00001" summary="12345">
+      <created>1609937113737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609937113737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,5 +174,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12345" />
+    <option name="LAST_COMMIT_MESSAGE" value="12345" />
   </component>
 </project>

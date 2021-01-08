@@ -12,9 +12,7 @@ import org.junit.runner.notification.Failure;
  */
 public class ArrayHolderTestsRunner
 {
-    /**
-     * Rigorous Test :-)
-     */
+
     @Test
     public static void main(String[] args)
     {
