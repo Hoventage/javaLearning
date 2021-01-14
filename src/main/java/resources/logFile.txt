@@ -1,0 +1,22 @@
+янв. 14, 2021 4:54:54 PM Experiments.ClassToCheckOutEnums main
+INFO: Запись - результат работы метода info
+янв. 14, 2021 4:54:54 PM Experiments.ClassToCheckOutEnums main
+SEVERE: Запись - результат работы метода log
+янв. 14, 2021 4:54:55 PM Experiments.ClassToCheckOutEnums main
+INFO: Запись - результат работы метода info
+янв. 14, 2021 4:54:55 PM Experiments.ClassToCheckOutEnums main
+SEVERE: Запись - результат работы метода log
+янв. 14, 2021 4:54:57 PM Experiments.ClassToCheckOutEnums main
+INFO: Запись - результат работы метода info
+янв. 14, 2021 4:54:57 PM Experiments.ClassToCheckOutEnums main
+SEVERE: Запись - результат работы метода log
+янв. 14, 2021 4:56:53 PM Experiments.ClassToCheckOutEnums main
+INFO: Experiments.ClassToCheckOutEnums Запись - результат работы метода info
+янв. 14, 2021 4:56:53 PM Experiments.ClassToCheckOutEnums main
+SEVERE: Experiments.ClassToCheckOutEnums Запись - результат работы метода log
+янв. 14, 2021 5:17:45 PM Experiments.ClassToCheckOutEnums main
+INFO: Experiments.ClassToCheckOutEnums Запись - результат работы метода info
+янв. 14, 2021 5:17:45 PM Experiments.ClassToCheckOutEnums main
+SEVERE: Experiments.ClassToCheckOutEnums Запись - результат работы метода log
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ап контента
